@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.presentation.welcomescreen
+package ru.codeislive63.crypttalk.ui.welcome
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -45,14 +45,14 @@ fun WelcomeScreen() {
                 color = colorResource(R.color.gray)
             )
 
-            Spacer(modifier = Modifier.width(8.dp))
+            Spacer(modifier = Modifier.width(6.dp))
 
             Text(
                 text = "Privacy Policy",
                 color = colorResource(R.color.dark_turquoise)
             )
 
-            Spacer(modifier = Modifier.width(8.dp))
+            Spacer(modifier = Modifier.width(6.dp))
 
             Text(
                 text = "Tap 'Agree and continue' to",
@@ -66,7 +66,7 @@ fun WelcomeScreen() {
                 color = colorResource(R.color.gray)
             )
 
-            Spacer(modifier = Modifier.width(8.dp))
+            Spacer(modifier = Modifier.width(6.dp))
 
             Text(
                 text = "Terms of Services",
