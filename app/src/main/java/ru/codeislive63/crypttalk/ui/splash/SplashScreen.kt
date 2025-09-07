@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.presentation.splashscreen
+package ru.codeislive63.crypttalk.ui.splash
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
