@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.ui.theme
+package ru.codeislive63.crypttalk.core.theme
 
 import androidx.compose.ui.graphics.Color
 
