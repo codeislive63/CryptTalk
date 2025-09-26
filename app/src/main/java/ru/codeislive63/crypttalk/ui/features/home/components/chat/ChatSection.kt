@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.ui.home.components.chat
+package ru.codeislive63.crypttalk.ui.features.home.components.chat
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -24,10 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun ChatSection(
-    chatItem: ChatItem
-) {
-
+fun ChatSection(chatItem: ChatItem) {
     Row(
         modifier = Modifier.padding(8.dp),
         verticalAlignment = Alignment.CenterVertically

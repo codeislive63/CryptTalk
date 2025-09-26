@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.ui.welcome
+package ru.codeislive63.crypttalk.ui.features.onboarding
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -29,7 +29,7 @@ fun WelcomeScreen() {
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
-        ) {
+    ) {
 
         Text(
             text = "Welcome to CryptTalk",

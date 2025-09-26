@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.ui.home
+package ru.codeislive63.crypttalk.ui.features.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,9 +25,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import ru.codeislive63.crypttalk.R
-import ru.codeislive63.crypttalk.ui.home.components.chat.ChatItem
-import ru.codeislive63.crypttalk.ui.home.components.chat.ChatSection
-import ru.codeislive63.crypttalk.ui.home.components.navigation.BottomNavBar
+import ru.codeislive63.crypttalk.ui.features.home.components.chat.ChatItem
+import ru.codeislive63.crypttalk.ui.features.home.components.chat.ChatSection
+import ru.codeislive63.crypttalk.ui.components.navigation.BottomNavBar
 
 @Composable
 @Preview(showSystemUi = true)

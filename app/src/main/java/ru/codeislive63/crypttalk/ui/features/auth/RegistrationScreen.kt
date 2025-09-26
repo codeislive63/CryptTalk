@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.ui.registration
+package ru.codeislive63.crypttalk.ui.features.auth
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
