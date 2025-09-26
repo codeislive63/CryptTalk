@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.ui.home.components.chat
+package ru.codeislive63.crypttalk.ui.features.home.components.chat
 
 data class ChatItem(
     val image: Int,

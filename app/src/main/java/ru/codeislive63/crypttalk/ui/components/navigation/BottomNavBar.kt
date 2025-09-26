@@ -1,4 +1,4 @@
-package ru.codeislive63.crypttalk.ui.home.components.navigation
+package ru.codeislive63.crypttalk.ui.components.navigation
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -24,7 +24,6 @@ import ru.codeislive63.crypttalk.R
 @Composable
 @Preview(showSystemUi = true)
 fun BottomNavBar() {
-
     BottomAppBar(
         tonalElevation = 12.dp,
         containerColor = Color.White
